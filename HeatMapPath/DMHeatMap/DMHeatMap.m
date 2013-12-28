@@ -58,6 +58,10 @@
 }
 
 - (NSArray *)points:(CGPoint)start {
+    if (CGPointEqualToPoint(start, self.target)) {
+        return nil;
+    }
+    
     CGPoint next = start;
     NSMutableArray* points = [[NSMutableArray alloc] init];
     

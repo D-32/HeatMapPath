@@ -44,6 +44,7 @@
         
         for (int j = 0; j < 20; j++) {
             Tile* tile = [[Tile alloc] init];
+            tile.position = CGPointMake(j, i);
             [row addObject:tile];
         }
         
@@ -121,12 +122,14 @@
     for (NSArray* row in _map) {
         x = 0;
         for (Tile* tile in row) {
+            int distance = [_heatmap distanceForPoint:tile.position];
+            
             UIView* view = [[UIView alloc] initWithFrame:CGRectMake(x * _tileWidth, y * _tileHeight, _tileWidth, _tileHeight)];
-            view.backgroundColor = [UIColor colorWithWhite:tile.distance / 120.0f alpha:1.0];
+            view.backgroundColor = [UIColor colorWithWhite:distance / 120.0f alpha:1.0];
             if (tile.cost == -1) {
                 view.backgroundColor = [UIColor redColor];
             }
-            if (tile.distance == -1) {
+            if (distance == -1) {
                 view.backgroundColor = [UIColor yellowColor];
             }
             [_mapsContainer addSubview:view];

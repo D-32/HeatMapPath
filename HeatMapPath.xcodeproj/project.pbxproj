@@ -19,6 +19,7 @@
 		D0653425185525400044D3A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0653424185525400044D3A5 /* AppDelegate.m */; };
 		D0653427185525400044D3A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0653426185525400044D3A5 /* Images.xcassets */; };
 		D084A492185526A300E72DF5 /* DMHeatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D084A491185526A300E72DF5 /* DMHeatMap.m */; };
+		D0D12250186E5611003D12FC /* DMInternalTile.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D1224F186E5611003D12FC /* DMInternalTile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		D065342D185525410044D3A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D084A490185526A300E72DF5 /* DMHeatMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMHeatMap.h; path = DMHeatMap/DMHeatMap.h; sourceTree = "<group>"; };
 		D084A491185526A300E72DF5 /* DMHeatMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMHeatMap.m; path = DMHeatMap/DMHeatMap.m; sourceTree = "<group>"; };
+		D0D1224E186E5611003D12FC /* DMInternalTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMInternalTile.h; path = DMHeatMap/DMInternalTile.h; sourceTree = "<group>"; };
+		D0D1224F186E5611003D12FC /* DMInternalTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMInternalTile.m; path = DMHeatMap/DMInternalTile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				D084A490185526A300E72DF5 /* DMHeatMap.h */,
 				D084A491185526A300E72DF5 /* DMHeatMap.m */,
 				9AB5FC14185C8AC6008AF917 /* DMTile.h */,
+				D0D1224E186E5611003D12FC /* DMInternalTile.h */,
+				D0D1224F186E5611003D12FC /* DMInternalTile.m */,
 				9AB5FC1E185D1FF4008AF917 /* NSMutableArray+NSMutableArray_DMAddition.h */,
 				9AB5FC1F185D1FF4008AF917 /* NSMutableArray+NSMutableArray_DMAddition.m */,
 			);
@@ -206,6 +211,7 @@
 				9AB5FC17185CD472008AF917 /* Tile.m in Sources */,
 				9AB5FC1D185D1A76008AF917 /* Particle.m in Sources */,
 				9AB5FC20185D1FF4008AF917 /* NSMutableArray+NSMutableArray_DMAddition.m in Sources */,
+				D0D12250186E5611003D12FC /* DMInternalTile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,20 +11,11 @@
 @protocol DMTile <NSObject>
 
 /**
- *  Distance, can be used to draw the heatmap, otherwise only used internaly.
- */
-@property (nonatomic) int distance;
-
-/**
- *  Position of the tile, used internaly.
- */
-@property (nonatomic) CGPoint position;
-
-/**
  *  Returns the cost of this tile.
  *  Return values < 0 indicate that the tile is not walkable.
+ *  The calculation for the path is done backwards!
  *
- *  @param sourceTile the previous tile, this can be used to determine the direction
+ *  @param sourceTile the previous tile (backwards), this can be used to determine the direction
  *
  *  @return cost
  */

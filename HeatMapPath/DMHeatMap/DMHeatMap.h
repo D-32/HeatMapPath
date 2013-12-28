@@ -36,4 +36,14 @@
  */
 - (NSArray *)points:(CGPoint)start;
 
+/**
+ *  Get the distance to the target from a certain point.
+ *  Can be used to draw the heatmap.
+ *
+ *  @param point start point
+ *
+ *  @return distance to target point
+ */
+- (int)distanceForPoint:(CGPoint)point;
+
 @end

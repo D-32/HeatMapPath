@@ -10,9 +10,6 @@
 
 @implementation Tile
 
-@synthesize distance;
-@synthesize position;
-
 - (id)init {
     self = [super init];
     self.cost = 1;
@@ -21,10 +18,6 @@
 
 - (int)costFromSource:(id<DMTile>)sourceTile {
     return self.cost;
-}
-
-- (NSString *)description {
-    return [NSString stringWithFormat:@"distance = %i, position = %@, cost = %i", self.distance, NSStringFromCGPoint(position), self.cost];
 }
 
 @end

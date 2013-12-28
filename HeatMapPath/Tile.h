@@ -11,6 +11,7 @@
 
 @interface Tile : NSObject <DMTile>
 
+@property (nonatomic) CGPoint position;
 @property (nonatomic) int cost;
 
 @end

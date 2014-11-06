@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'HeatMapPath', :exclusive => true do
+  pod "HeatMapPath", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "HeatMapPath", :path => "../"
+
+  
+end

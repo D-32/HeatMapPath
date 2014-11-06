@@ -1,0 +1,14 @@
+PODS:
+  - HeatMapPath (1.0.0)
+
+DEPENDENCIES:
+  - HeatMapPath (from `../`)
+
+EXTERNAL SOURCES:
+  HeatMapPath:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HeatMapPath: 744a3b70aeda8c23ca804dc6f9f876d647c23cab
+
+COCOAPODS: 0.34.4

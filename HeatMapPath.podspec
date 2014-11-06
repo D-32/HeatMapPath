@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { "Dylan Marriott" => "info@d-32.com" }
   s.source           = { :git => "https://github.com/d-32/HeatMapPath.git", :tag => s.version.to_s }
   s.social_media_url = "https://twitter.com/dylan36032"
+  s.screenshot  	 = "http://46.105.26.1/uploads/heatmap.png"
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 

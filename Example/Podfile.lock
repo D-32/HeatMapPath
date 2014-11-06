@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HeatMapPath: 3543ea69c01b10411bf31cd5cd1b53327e49a969
+  HeatMapPath: 744a3b70aeda8c23ca804dc6f9f876d647c23cab
 
 COCOAPODS: 0.34.4

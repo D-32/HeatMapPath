@@ -8,7 +8,7 @@ HeatMapPath
 
 Goal-Based vector field path finding for iOS.
 
-If you need to calculate the shortest path for many objects with the same target than this approach should be more efficient than traditional path finding algorithms. It creates a heatmap for the hole map, which takes time. But for each object it than only has to follow the heatmap values.
+If you need to calculate the shortest path for many objects with the same target then this approach should be more efficient than traditional path finding algorithms. It creates a heatmap for the whole map, which takes time. But for each object it than only has to follow the heatmap values.
 
 ![image](http://46.105.26.1/uploads/heatmap.png)
 
@@ -36,7 +36,7 @@ And add the method `costFromSource:`
 	- (int)costFromSource:(id<DMTile>)sourceTile {
     	return 1;
 	}
-Here you can return the cost for that tile. How you'll do thatis your choice. You get the source tile (the one that's before it in the path) if your cost is different depending on the direction.
+Here you can return the cost for that tile. How you'll do that is your choice. You get the source tile (the one that's before it in the path) if your cost is different depending on the direction.
 
 ##### HeatMap
 
